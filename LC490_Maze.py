@@ -100,5 +100,29 @@ class Solution:
             
             
             
-            
-            
+# Approach 2 BFS
+        
+      queue = deque()
+      queue.appendleft(start)
+      #mark visited
+      visited[start[0]][start[1]] = True
+
+      while queue:
+          point = queue.popleft()
+
+          if point[0]==self.destination[0] and point[1]==self.destination[1]:
+              return True
+
+          for _dir in dirs:
+              newR = point[0]+_dir[0]
+              newC = point[1]+_dir[1]
+
+              while ( newR >=0 and newR <len(maze) and newC>=0 and newC<len(maze[0]) and maze[newR][newC]==0):
+                  newR+=point[0]
+                  newC+=point[1]
+
+              if  visited[newR-point[0]][newC-point[1]] == False:
+                  queue.append([newR-point[0],newC-point[1]])
+                  visited[newR-point[0]][newC-point[1]]=True
+
+      return False

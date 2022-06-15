@@ -8,4 +8,5 @@ Python Leetcode questions
 | 3 | Design In-Memory File System | Design |  [LC 588 Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [filesystemdesign.py](/LC588_Design_File_system.py) |
 | 4 | Gase Station| Greedy |  [LC 134 Gase Station](https://leetcode.com/problems/gas-station/) | [gaststaion.py](/LC134_Gase_station.py) |
 | 5 |Maze| BFS DFS  |  [LC 490 Maze](https://leetcode.com/problems/the-maze/) | [maze.py](/LC490_Maze.py) |
+| 6 |Spiral Matrix| Array  |  [LC 54 Spiral Matrix ](https://leetcode.com/problems/spiral-matrix/) | [spiral_matrix.py](/LC54_spiral_matrix.py) |
 

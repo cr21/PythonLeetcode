@@ -11,4 +11,5 @@ Python Leetcode questions
 | 6 |Spiral Matrix| Array  |  [LC 54 Spiral Matrix ](https://leetcode.com/problems/spiral-matrix/) | [spiral_matrix.py](/LC54_spiral_matrix.py) |
 | 7 |Deisgn TicTacToe| Design  |  [LC 348 Deisgn TicTacToe ](https://leetcode.com/problems/design-tic-tac-toe/) | [tictactoe.py](/LC348_DesignTicTacToe.py)|
 | 8 |Restore IP addresses| String, Backtracking  |  [LC 93 Restore IP addresses ](https://leetcode.com/problems/restore-ip-addresses/) | [restore_ip_backtracking.py](/LC93_RestoreIpAddresses.py) |
+| 9 |reconstruct Itinerary | Graph, Backtracking , DFS |  [LC 332 Reconstruct Itinerary ](https://leetcode.com/problems/reconstruct-itinerary/) | [findItinerary.py](/LC332_ReconstructItinerary.py) |
 

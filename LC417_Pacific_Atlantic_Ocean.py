@@ -118,6 +118,86 @@ class Solution:
                     
                     
                 
+           
+  ## Approach 2 DFS
+  
+  class Solution:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        
+        if len(heights)==0 or len(heights[0])==0 :
+            return []
+            
+        atlanticQueue = set()
+        pacificQueue =  set()
+        
+        # first row is connected to pacific
+        # last row is connected to atlantic
+        # first column is connected to pacific
+        # last column is connected to atlantic
+         
+        m = len(heights);
+        n = len(heights[0])
+       
+        for i in range(0,n):
+            # first row reachble from pacific
+            pacificQueue.add((0,i))
+            # last row reachable from atlantic
+            atlanticQueue.add((m-1,i));
+            
+        for i in range(m):
+            # first column reachable from pacific
+            
+            pacificQueue.add((i,0))
+            # last column reachable from atlantic
+            atlanticQueue.add((i,n-1))
+            
+        
+        # [0,1] = EAST
+        # [0,-1] = WEST
+        # [1,0] = SOUTH
+        # [-1,0] = NORTH
+        dirs = [[0,1],[1,0],[0,-1],[-1,0]]
+        res=set()
+        
+        
+        # DFS throught all celll to get reachable lcoation for both pacific and atlantic ocean
+        def DFS(row, col, reachable):
+            reachable.add((row, col))
+            for _dir in dirs:
+                newR = row + _dir[0]
+                newC = col + _dir[1]
+
+                # if out of bound continue
+                if newR < 0 or newR >= m or newC < 0 or newC >= n :
+                    continue
+
+                # if visited continue
+                if (newR,newC) in reachable:
+                    continue
+
+                # if new height is smaller than current cell height 
+                # continue
+                if heights[newR][newC] < heights[row][col]:
+                    continue;
+
+                DFS(newR,newC,reachable)
+
+        
+        pacific_reachable = set()
+        atlantic_reachable= set()
+        
+        for location in  pacificQueue:
+            row, col = location[0], location[1]
+            DFS(row,col, pacific_reachable)
+            
+        for location in  atlanticQueue:
+            row, col = location[0], location[1]
+            DFS(row,col, atlantic_reachable)
+          
+        
+        return list(pacific_reachable.intersection(atlantic_reachable))
+    
+    
                 
                 
             

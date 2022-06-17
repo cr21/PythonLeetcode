@@ -14,6 +14,7 @@ Python Leetcode questions
 | 9 |reconstruct Itinerary | Graph, Backtracking , DFS |  [LC 332 Reconstruct Itinerary ](https://leetcode.com/problems/reconstruct-itinerary/) | [findItinerary.py](/LC332_ReconstructItinerary.py) |
 | 10 |Sudoku Solver  | CSP, Backtracking , DFS |  [LC 37 Sudoku solver  ](https://leetcode.com/problems/sudoku-solver/) | [sudoku_solver.py](/LC37_SudokuSolver.py) |
 | 11 |Pacific Atlantic Water flow  | DFS MATRIX , BFS |  [LC 417 Pacific Atlantic Water flow   ](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [ocean_water_flow.py](/LC417_Pacific_Atlantic_Ocean.py) |
+| 12 |Angle bw hands of clock  | Math, Ad hoc |  [LC 1344 Angle between hours and minutes hands of clock   ](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | [angle_bw_hour_minutes.py](/LC1344_Angle_between_handsof_clock.py) |
 
 
 

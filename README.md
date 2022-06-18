@@ -15,6 +15,8 @@ Python Leetcode questions
 | 10 |Sudoku Solver  | CSP, Backtracking , DFS |  [LC 37 Sudoku solver  ](https://leetcode.com/problems/sudoku-solver/) | [sudoku_solver.py](/LC37_SudokuSolver.py) |
 | 11 |Pacific Atlantic Water flow  | DFS MATRIX , BFS |  [LC 417 Pacific Atlantic Water flow   ](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [ocean_water_flow.py](/LC417_Pacific_Atlantic_Ocean.py) |
 | 12 |Angle bw hands of clock  | Math, Ad hoc |  [LC 1344 Angle between hours and minutes hands of clock   ](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | [angle_bw_hour_minutes.py](/LC1344_Angle_between_handsof_clock.py) |
+| 13 | Longest Substring with At Most K Distinct Characters | String, two pointer, HashMap |  [LC 340. Longest Substring with At Most K Distinct Characters   ](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [longest_repeating_k_distinct.py](/LC340_Longest_substring_with_k_distinct_char.py) |
+
 
 
 

@@ -18,8 +18,7 @@ Python Leetcode questions
 | 13 | Longest Substring with At Most K Distinct Characters | String, two pointer, HashMap |  [LC 340. Longest Substring with At Most K Distinct Characters   ](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [longest_repeating_k_distinct.py](/LC340_Longest_substring_with_k_distinct_char.py) |
 | 13 | Longest Palindromic SubString | String, two pointer, DP |  [LC 05. Longest Palindromic SubString   ](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_pallindromic_substring.py](/LC_5_LongestPalindromic_substring.py) |
 | 14 | Next Permutation | Array, two pointer, Ad hoc,  |  [LC 31. Next Permutation   ](https://leetcode.com/problems/next-permutation/) | [next_permutation.py](/LC31_nextPermutation.py) |
-
-
+| 15 | Longest substring without repeating character| Array, two pointer, String, HashMap  |  [LC 3. Longest substring without repeating character   ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_nonrepeating_char_substring.py](/Longest_substring_without_repeating_charc.py) |
 
 
 

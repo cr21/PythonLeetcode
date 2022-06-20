@@ -20,6 +20,8 @@ Python Leetcode questions
 | 14 | Next Permutation | Array, two pointer, Ad hoc,  |  [LC 31. Next Permutation   ](https://leetcode.com/problems/next-permutation/) | [next_permutation.py](/LC31_nextPermutation.py) |
 | 15 | Longest substring without repeating character| Array, two pointer, String, HashMap  |  [LC 3. Longest substring without repeating character   ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_nonrepeating_char_substring.py](/Longest_substring_without_repeating_charc.py) |
 | 16 | Pallindromic Permutation| Array, HashMap  |  [266. Palindrome Permutation   ](https://leetcode.com/problems/palindrome-permutation/) | [pallindromic_permutation.py](/LC_266_pallindrome_permutation.py) |
+| 17 | Pallindromic substring| Array, String, DP , Two Pointer  |  [647. palindromic substrings   ](https://leetcode.com/problems/palindromic-substrings/) | [pallindromic_substring.py](/LC647Pallindromic_substring.py) |
+
 
 
 

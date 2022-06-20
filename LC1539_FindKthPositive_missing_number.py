@@ -56,5 +56,31 @@ class Solution:
                 
                 
             
+## Binary Search
 
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
+        
+        left = 0
+        right = len(arr)-1
+        
+        while left<=right:
+            pivot = (right+left)//2
+            
+            # number of missing element less than arr[pivot]
+            if arr[pivot]-pivot-1 < k:
+                left = pivot+1
+            else:
+                right = pivot-1
+        
+        # # number of element before arr[right] should be subtracted from arr[right] and then we should add K to get the total count
+        # at last left = right+1
+        return left+k
+        # return arr[right]+k - (arr[right]-right-1)
+            
+            
+        
+                
+                
+            
 

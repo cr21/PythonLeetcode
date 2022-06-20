@@ -21,6 +21,7 @@ Python Leetcode questions
 | 15 | Longest substring without repeating character| Array, two pointer, String, HashMap  |  [LC 3. Longest substring without repeating character   ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_nonrepeating_char_substring.py](/Longest_substring_without_repeating_charc.py) |
 | 16 | Pallindromic Permutation| Array, HashMap  |  [266. Palindrome Permutation   ](https://leetcode.com/problems/palindrome-permutation/) | [pallindromic_permutation.py](/LC_266_pallindrome_permutation.py) |
 | 17 | Pallindromic substring| Array, String, DP , Two Pointer  |  [647. palindromic substrings   ](https://leetcode.com/problems/palindromic-substrings/) | [pallindromic_substring.py](/LC647Pallindromic_substring.py) |
+| 18 | Edit Distance|  String, DP  |  [72 . Edit Distance    ](https://leetcode.com/problems/edit-distance/) | [lenenshitine_distance.py](/LC72_edit_distance.py) |
 
 
 

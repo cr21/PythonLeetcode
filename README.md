@@ -26,6 +26,7 @@ Python Leetcode questions
 | 20 | Search in 2d MAtrix|  Array, Binary Search  |  [74 Search in 2d MAtrix  ](https://leetcode.com/problems/search-a-2d-matrix/) | [search2dArray.py](/Array/LC74_SearchIn2D_Matrix.py) |
 | 21 | Largest Rectangle in Histogram|  Stack, Devide and Conquer, |  [84 Largest Rectangle in Histogram  ](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [largest_histogram.py](/Stack/LC84_Largest_Rectangle_in_histogram.py) |
 | 22 | Maximal Area Rectangle |  Stack, DP|  [85  Maximal Area Rectangle  ](https://leetcode.com/problems/maximal-rectangle/) | [maximal_area_rectangle.py](/Stack/LC85_Maximal_rectangle.py) |
+| 23 | Open Lock |  Graph, String, BFS|  [752  Open Lock  ](https://leetcode.com/problems/open-the-lock/) | [open_lock_bfs_string.py](/Graph/LC752_open_lock.py) |
 
 
 

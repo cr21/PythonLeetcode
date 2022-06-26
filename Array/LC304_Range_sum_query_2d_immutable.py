@@ -42,6 +42,9 @@ class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
         # (cumsum, matrixvalue)
+        # Maintain cumulative sum
+        # store [cumsum, original_value] in matrix
+        # storing row wise cumsum
         self.cum_sum = [[[matrix[i][j], matrix[i][j]] for j in range(len(matrix[0]))] for i in range(len(matrix)) ]
         for r_i in range(len(matrix)):
             for c_i in range(1,len(matrix[0])):
@@ -52,6 +55,8 @@ class NumMatrix:
 
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
         ans = 0
+        # we will sum over rows
+        # and used row wise cumsum to get total sum region 
         for r_i in range(row1, row2+1):
             
             ans+= (self.cum_sum[r_i][col2][0]-  self.cum_sum[r_i][col1][0]  + self.cum_sum[r_i][col1][1])

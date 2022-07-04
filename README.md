@@ -31,6 +31,7 @@ Python Leetcode questions
 | 25 | Minimum Area Rectangle  |  Geometry, sorting,  HashMap , Math |  [939. Minimum Area Rectangle  ](https://leetcode.com/problems/minimum-area-rectangle/) | [minimum_area_rectangle.py](/HashMap/Minimum_area_rectangle.py) |
 | 26 | Sliding Window Maximum |  Sliding Window, DEQUE  |  [239. Sliding Window Maximum  ](https://leetcode.com/problems/sliding-window-maximum/) | [sliding_window_maximum.py](/Sliding_window/LC239_Sliding_window_maximum.py) |
 | 27 | Maximum Area of Island |  Graph, BFS  |  [695. Maximum Area of Island  ](https://leetcode.com/problems/max-area-of-island/) | [maximu_area_island.py](/Graph/LC695_max_area_island.py) |
+| 28 | Maximum Consecutive ones|  Two Pointer, Array, sliding window  |  [1004. Maximum Consecutive ones ](https://leetcode.com/problems/max-consecutive-ones-iii/) | [maximum_one_consecutive.py](/Sliding_window/LC1004_Max_consecutive_ones.py) |
 
 
 

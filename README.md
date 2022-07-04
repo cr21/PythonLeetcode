@@ -29,6 +29,8 @@ Python Leetcode questions
 | 23 | Open Lock |  Graph, String, BFS|  [752  Open Lock  ](https://leetcode.com/problems/open-the-lock/) | [open_lock_bfs_string.py](/Graph/LC752_open_lock.py) |
 | 24 | Range Sum Query 2D - Immutable  |  Array, prefixsum ,Matrix, cumulative sum|  [304. Range Sum Query 2D - Immutable  ](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [range_sum_query_2d_matrix.py](/Array/LC304_Range_sum_query_2d_immutable.py) |
 | 25 | Minimum Area Rectangle  |  Geometry, sorting,  HashMap , Math |  [939. Minimum Area Rectangle  ](https://leetcode.com/problems/minimum-area-rectangle/) | [minimum_area_rectangle.py](/HashMap/Minimum_area_rectangle.py) |
+| 26 | Sliding Window Maximum |  Sliding Window, DEQUE  |  [239. Sliding Window Maximum  ](https://leetcode.com/problems/sliding-window-maximum/) | [sliding_window_maximum.py](/Sliding_window/LC239_Sliding_window_maximum.py) |
+
 
 
 

@@ -34,6 +34,8 @@ Python Leetcode questions
 | 28 | Maximum Consecutive ones|  Two Pointer, Array, sliding window  |  [1004. Maximum Consecutive ones ](https://leetcode.com/problems/max-consecutive-ones-iii/) | [maximum_one_consecutive.py](/Sliding_window/LC1004_Max_consecutive_ones.py) |
 | 29 | Shortest Bridge|  Graph, BFS, DFS  |  [934. Shortest Bridge ](https://leetcode.com/problems/shortest-bridge/) | [bridge_between_island.py](/Graph/LC934_shortest_bridge_between_island.py) |
 | 30 | 3Sum Closest|  Array, Sorting, Two Pointer  |  [16. 3Sum Closest ](https://leetcode.com/problems/3sum-closest/) | [3sum_closest.py](/Two_Pointer/3SumClosest.py) |
+| 31 | Insert, Delete, Randomized O(1)|  Array, random, HashTable  |  [380. Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [insert_delete_random_O_1.py](/Design/Insert_Delete_Random_O_1.py) |
+
 
 
 

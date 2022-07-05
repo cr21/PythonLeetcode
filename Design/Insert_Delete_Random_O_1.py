@@ -64,6 +64,55 @@ class RandomizedSet:
     
         
 
+ # MORE Improved
+ 
+ class RandomizedSet:
+
+    def __init__(self):
+        # Maintain dictionary of value and index at which value is stored in another list
+        self.s = dict()
+        self.l = list()
+        
+        
+    
+    def insert(self, val: int) -> bool:
+        if val in self.s:
+            return False
+        # If val is not in dictionary ass it to dictionary and also add it to list
+        self.s[val]=len(self.l)
+        self.l.append(val)
+        return True
+        
+        
+
+    def remove(self, val: int) -> bool:
+        if val not in self.s:
+            return False
+        # If val is present in dictionary
+        # put last element at index at which we are removing element
+        # update the index of last element with new index
+        index = self.s[val]
+        last_item = self.l[-1]
+        self.l[index], self.s[last_item] = last_item, index
+        # remove last element from list
+        self.l.pop()
+        # remove key from dictionary
+        del self.s[val]
+        return True
+        
+        
+        
+    def getRandom(self) -> int:
+        return random.choice(list(self.l))
+    
+        
+
+
+# Your RandomizedSet object will be instantiated and called as such:
+# obj = RandomizedSet()
+# param_1 = obj.insert(val)
+# param_2 = obj.remove(val)
+# param_3 = obj.getRandom()
 
 # Your RandomizedSet object will be instantiated and called as such:
 # obj = RandomizedSet()

@@ -93,4 +93,34 @@ class Solution:
         return visited[head]
             
         
+        
+  ### RECURSIVE APPAROCH
 
+  class Solution:
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        
+        
+        
+        self.visited={}
+        
+        def deepcopy( head):
+            if not head:
+                return None
+
+            if head in self.visited:
+                return self.visited[head]
+
+            # deep copy new Node
+            node = Node(head.val, None, None)
+
+            # do not recursively create again, so bookeeping it
+            self.visited[head]= node
+            
+            # recursively create next and random pointer
+            node.next = deepcopy(head.next)
+            node.random = deepcopy(head.random)
+
+            return node
+    
+        return deepcopy(head)
+        

@@ -37,6 +37,7 @@ Python Leetcode questions
 | 31 | Insert, Delete, Randomized O(1)|  Array, random, HashTable  |  [380. Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [insert_delete_random_O_1.py](/Design/Insert_Delete_Random_O_1.py) |
 | 32 | Insert, Delete, Randomized O(1) Duplicates allowed|  Array, random, HashTable, Multiset  |  [381. Insert Delete GetRandom With duplicates O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [insert_delete_random__with_duplicates_O_1.py](/Design/Randomized_multiset_insertion_Deletion_randomization.py) |
 | 33 | Copy Random Pointers|  LinkedList, Graph |  [138. Copy List with Random Pointer ](https://leetcode.com/problems/copy-list-with-random-pointer/) | [deep_copy_list.py](/LinkedList/LC138_copy_list_with_random_pointer.py) |
+| 34 | Continuous Subarray Sum|  Math, Array |  [523. Continuous Subarray Sum ](https://leetcode.com/problems/continuous-subarray-sum/) | [Continous_subarray_sum.py](/Math/Continous_subarray_sum.py) |
 
 
 

@@ -61,4 +61,17 @@ class Solution:
         return sum(output)
             
 
+     ans = 0
+     stack=[root]
+     while stack:
+         node = stack.pop()
+         if node:
+             if node.val >= low and node.val <= high:
+                 ans+=node.val
+             if node.val >= low:
+                 stack.append(node.left)
+             if node.val <= high:
+                 stack.append(node.right)
+
+     return ans
 

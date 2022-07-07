@@ -38,6 +38,8 @@ Python Leetcode questions
 | 32 | Insert, Delete, Randomized O(1) Duplicates allowed|  Array, random, HashTable, Multiset  |  [381. Insert Delete GetRandom With duplicates O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [insert_delete_random__with_duplicates_O_1.py](/Design/Randomized_multiset_insertion_Deletion_randomization.py) |
 | 33 | Copy Random Pointers|  LinkedList, Graph |  [138. Copy List with Random Pointer ](https://leetcode.com/problems/copy-list-with-random-pointer/) | [deep_copy_list.py](/LinkedList/LC138_copy_list_with_random_pointer.py) |
 | 34 | Continuous Subarray Sum|  Math, Array |  [523. Continuous Subarray Sum ](https://leetcode.com/problems/continuous-subarray-sum/) | [Continous_subarray_sum.py](/Math/Continous_subarray_sum.py) |
+| 35 | MERGE accounts|  GRAPH, DFS, UNION FIND, CONNECTED COMPONENT |  [729. Account Merge ](https://leetcode.com/problems/accounts-merge/) | [merge_accounts.py](/Graph/LC721_Account_merge.py) |
+
 
 
 

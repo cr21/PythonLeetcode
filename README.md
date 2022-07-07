@@ -39,6 +39,9 @@ Python Leetcode questions
 | 33 | Copy Random Pointers|  LinkedList, Graph |  [138. Copy List with Random Pointer ](https://leetcode.com/problems/copy-list-with-random-pointer/) | [deep_copy_list.py](/LinkedList/LC138_copy_list_with_random_pointer.py) |
 | 34 | Continuous Subarray Sum|  Math, Array |  [523. Continuous Subarray Sum ](https://leetcode.com/problems/continuous-subarray-sum/) | [Continous_subarray_sum.py](/Math/Continous_subarray_sum.py) |
 | 35 | MERGE accounts|  GRAPH, DFS, UNION FIND, CONNECTED COMPONENT |  [729. Account Merge ](https://leetcode.com/problems/accounts-merge/) | [merge_accounts.py](/Graph/LC721_Account_merge.py) |
+| 36 | Range sum BST| BST, Tree, InORder, Binary Search|  [938. Range sum BST ](https://leetcode.com/problems/range-sum-of-bst/) | [bst_range_sum.py](/Tree/LC_938_BST_Range_Sum.py) |
+
+
 
 
 

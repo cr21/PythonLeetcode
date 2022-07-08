@@ -41,6 +41,7 @@ Python Leetcode questions
 | 35 | MERGE accounts|  GRAPH, DFS, UNION FIND, CONNECTED COMPONENT |  [729. Account Merge ](https://leetcode.com/problems/accounts-merge/) | [merge_accounts.py](/Graph/LC721_Account_merge.py) |
 | 36 | Range sum BST| BST, Tree, InORder, Binary Search|  [938. Range sum BST ](https://leetcode.com/problems/range-sum-of-bst/) | [bst_range_sum.py](/Tree/LC_938_BST_Range_Sum.py) |
 | 37 | Basic Calculator II| Stack, String|  [227. Basic Calculator II ](https://leetcode.com/problems/basic-calculator-ii/) | [basic_calculator_2.py](/Stack/LC_227_Basic_calculator.py ) |
+| 38 | Basic Calculator| Stack, String|  [224. Basic Calculator ](https://leetcode.com/problems/basic-calculator/) | [basic_calculator.py](/Stack//LC_224_Basic_calculator.py ) |
 
 
 

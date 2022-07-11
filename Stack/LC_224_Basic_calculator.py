@@ -84,5 +84,47 @@ class Solution:
                     
                 
             
+         
+# APPROACH 2 That works for Basic Calculator 1, Basic Calculator 2 and Basic Calculator 3
+
+class Solution:
+    def calculate(self, s: str) -> int:
+        
+        
+        def evalute(operation, val):
+            if operation =='+':
+                stack.append(val)
+            if operation =='-':
+                stack.append(-val)
+            if operation =='*':
+                stack.append(stack.pop()*val)
+            if operation =='/':
+                stack.append(int(stack.pop()/val))
+        
+        index, num,sign, stack = 0 ,0, "+",[]
+        
+        while index < len(s):
+            curr_char = s[index]
+            if curr_char.isdigit():
+                num = num*10 + int(s[index])
             
+            elif curr_char in "+-*/":
+                evalute(sign, num)
+                sign, num = curr_char, 0
+            elif curr_char == '(':
+                # calculate as if new string expression
+                num,j = self.calculate(s[index+1:])
+                index = index+j
+            elif curr_char == ')':
+                evalute(sign, num)
+                return sum(stack), index+1
+            index+=1
+            
+        evalute(sign, num)
+        return sum(stack)
+        
+                
+                
+                
+
         

@@ -44,6 +44,7 @@ Python Leetcode questions
 | 38 | Basic Calculator| Stack, String|  [224. Basic Calculator ](https://leetcode.com/problems/basic-calculator/) | [basic_calculator.py](/Stack//LC_224_Basic_calculator.py ) |
 | 39 | Read 4 |  String|  [157. Read N Characters Given Read4 ](https://leetcode.com/problems/read-n-characters-given-read4/) | [read.py](/String/read4.py ) |
 | 40 | Read 4 Multiple Calls |  Buffer, OS|  [158. Read N Characters Given Read4 Multiple Calls ](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [reader4_multiple_Calls.py](/Queue/Reader4.py) |
+| 41 | Walls and Gates |  GRAPH, BFS |  [286. Walls and Gates ](https://leetcode.com/problems/walls-and-gates/) | [walls_gates.py](/Graph/LC286_Walls_and_gates.py) |
 
 
 

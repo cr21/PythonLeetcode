@@ -45,6 +45,7 @@ Python Leetcode questions
 | 39 | Read 4 |  String|  [157. Read N Characters Given Read4 ](https://leetcode.com/problems/read-n-characters-given-read4/) | [read.py](/String/read4.py ) |
 | 40 | Read 4 Multiple Calls |  Buffer, OS|  [158. Read N Characters Given Read4 Multiple Calls ](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [reader4_multiple_Calls.py](/Queue/Reader4.py) |
 | 41 | Walls and Gates |  GRAPH, BFS |  [286. Walls and Gates ](https://leetcode.com/problems/walls-and-gates/) | [walls_gates.py](/Graph/LC286_Walls_and_gates.py) |
+| 42 | Time BAsed Key Value pair|  Design, Binary Search, Array|  [981. Time Based Key-Value Store ](https://leetcode.com/problems/time-based-key-value-store/) | [time_based_KV.py](/Design/LC981_Time_based_Key_value_pair.py) |
 
 
 

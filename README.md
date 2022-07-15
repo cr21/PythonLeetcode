@@ -49,6 +49,7 @@ Python Leetcode questions
 | 43 | Binary Search Tree Iterator |  Design, Binary Search TREE, |  [173. BST Iterator  ](https://leetcode.com/problems/binary-search-tree-iterator/) | [BST_iterator.py](/Tree/LC173_BST_Iterator.py) |
 | 44 | Searilize and Deserialize binary search tree|  Serialize, Binary Search TREE, |  [449.  Serialize and Deserialize BST  ](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [searialize_deserialize_bst.py](/Tree/LC449_searialize_deserialize_bst.py) |
 | 45 | Jump Game IV|  Graph, BFS, Bidirectional BFS |  [1345. Jump Game IV  ](https://leetcode.com/problems/jump-game-iv/) | [jump_game_4.py](/Graph/LC1345_Jump_Game_IV.py) |
+| 46 | Validate_BST |  Tree, BST |  [98 Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/) | [validate_bst.py](/Tree/LC98_Validate_BST.py) |
 
 
 

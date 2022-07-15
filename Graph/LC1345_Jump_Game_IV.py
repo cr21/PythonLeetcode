@@ -100,4 +100,69 @@ class Solution:
 # APPROACH 2 : BIDirectional BFS
 
 
-
+class Solution:
+    def minJumps(self, arr: List[int]) -> int:
+        
+        if len(arr)<=1:
+            return 0
+        
+        k = len(arr)
+        graph = {}
+        # group the same value nodes togather and store their indexes
+        # this bookeeping will help 
+        for index in range(k):
+            if arr[index] in graph:
+                graph[arr[index]].append(index)
+            else:
+                graph[arr[index]]=[index]
+                
+        
+        
+        current= set([0])
+        visited={0, k-1}
+        steps=0
+        
+        other = set([k-1])
+        
+        # while current has some node to processed
+        while current:
+            # search from the side with fewer nodes
+            
+            if len(current) > len(other):
+                current, other = other, current
+            next_nodes=set()
+            
+            # process current layer
+            for node in current:
+                
+                # check for same value and add it to the next_layers process set
+                # because apart from the next and prev index neigh we will process
+                # same value index as well
+                for child in graph[arr[node]]:
+                    if child in other:
+                        return steps+1
+                    if child not in visited:
+                        visited.add(child)
+                        next_nodes.add(child)
+                
+                # process the node remove from graph to avoid redudant search
+                # MOST IMPORTANT IF YOU COMMENT IT TLE for some cases
+                # we don't want to process once it is added to next_nodes
+                graph[arr[node]].clear()
+                
+                # not check for neighbors for processing 
+                for child in [node-1, node+1]:
+                    if child in other:
+                        return steps+1
+                    if child >=0 and child < k and child not in visited:
+                        visited.add(child)
+                        next_nodes.add(child)
+            # assign next layers to current for further processing
+        
+            current = next_nodes
+            # increment steps
+            steps+=1
+                
+        
+        
+        

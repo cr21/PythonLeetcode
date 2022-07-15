@@ -33,6 +33,14 @@ The input tree is guaranteed to be a binary search tree.
 #         self.right = None
 
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+
 
 class Codec:
 
@@ -56,7 +64,17 @@ class Codec:
                 res.append(str(root.val)+",")
                 
         post_order(root)
-        return "".join(res)
+        
+        
+        preorder_res = []
+        def pre_order(root):
+            if root:
+                preorder_res.append(str(root.val)+",")
+                pre_order(root.left)
+                pre_order(root.right)
+        pre_order(root)
+        # return "".join(res)
+        return "".join(preorder_res)
         
     
     
@@ -64,8 +82,8 @@ class Codec:
         """Decodes your encoded data to tree.
         """
         data = [ int(x) for x in data.split(',') if x]
-        print(data)
-        def helper(L=float("-inf"), H=float("inf")):
+        # print(data)
+        def helper_post_order(L=float("-inf"), H=float("inf")):
             if not data or data[-1] < L or data[-1] > H:
                 return None
             # make root node
@@ -75,8 +93,34 @@ class Codec:
             root.right = helper(val, H)
             root.left = helper(L, val)
             return root
+        
+        def helper_pre_order(L=float("-inf"), H=float("inf")):
+            if not data :
+                return None
+            if  data[0] < L or data[0] > H:
+                return None
+            # make root node
             
-        return helper()
+            val = data.pop(0)
+            root = TreeNode(val)
+            root.left = helper_pre_order(L, val)
+            root.right = helper_pre_order(val, H)
+            
+            return root
+            
+        # return helper_post_order()
+        print(data)
+        return helper_pre_order()
+        
+        
+
+# Your Codec object will be instantiated and called as such:
+# Your Codec object will be instantiated and called as such:
+# ser = Codec()
+# deser = Codec()
+# tree = ser.serialize(root)
+# ans = deser.deserialize(tree)
+# return ans
 
 # Your Codec object will be instantiated and called as such:
 # Your Codec object will be instantiated and called as such:

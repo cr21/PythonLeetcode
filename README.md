@@ -47,6 +47,8 @@ Python Leetcode questions
 | 41 | Walls and Gates |  GRAPH, BFS |  [286. Walls and Gates ](https://leetcode.com/problems/walls-and-gates/) | [walls_gates.py](/Graph/LC286_Walls_and_gates.py) |
 | 42 | Time BAsed Key Value pair|  Design, Binary Search, Array|  [981. Time Based Key-Value Store ](https://leetcode.com/problems/time-based-key-value-store/) | [time_based_KV.py](/Design/LC981_Time_based_Key_value_pair.py) |
 | 43 | Binary Search Tree Iterator |  Design, Binary Search TREE, |  [173. BST Iterator  ](https://leetcode.com/problems/binary-search-tree-iterator/) | [BST_iterator.py](/Tree/LC173_BST_Iterator.py) |
+| 44 | Searilize and Deserialize binary search tree|  Serialize, Binary Search TREE, |  [449.  Serialize and Deserialize BST  ](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [searialize_deserialize_bst.py](/Tree/LC449_searialize_deserialize_bst.py) |
+
 
 
 

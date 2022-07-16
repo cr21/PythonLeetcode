@@ -50,6 +50,7 @@ Python Leetcode questions
 | 44 | Searilize and Deserialize binary search tree|  Serialize, Binary Search TREE, |  [449.  Serialize and Deserialize BST  ](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [searialize_deserialize_bst.py](/Tree/LC449_searialize_deserialize_bst.py) |
 | 45 | Jump Game IV|  Graph, BFS, Bidirectional BFS |  [1345. Jump Game IV  ](https://leetcode.com/problems/jump-game-iv/) | [jump_game_4.py](/Graph/LC1345_Jump_Game_IV.py) |
 | 46 | Validate_BST |  Tree, BST |  [98 Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/) | [validate_bst.py](/Tree/LC98_Validate_BST.py) |
+| 47 | Rotate Image |  Array, Matrix,  |  [48 Rotate Image](https://leetcode.com/problems/rotate-image/) | [rotateImage.py](/Array/LC48_Rotate_image.py) |
 
 
 

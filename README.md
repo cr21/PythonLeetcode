@@ -51,6 +51,9 @@ Python Leetcode questions
 | 45 | Jump Game IV|  Graph, BFS, Bidirectional BFS |  [1345. Jump Game IV  ](https://leetcode.com/problems/jump-game-iv/) | [jump_game_4.py](/Graph/LC1345_Jump_Game_IV.py) |
 | 46 | Validate_BST |  Tree, BST |  [98 Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/) | [validate_bst.py](/Tree/LC98_Validate_BST.py) |
 | 47 | Rotate Image |  Array, Matrix,  |  [48 Rotate Image](https://leetcode.com/problems/rotate-image/) | [rotateImage.py](/Array/LC48_Rotate_image.py) |
+| 48 | Kth Closest Element to Origin |  Heap |  [973 K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [kth_closest_point_to_origin.py](/Heap/KthClosestElement_to_origin.py) |
+
+
 
 
 

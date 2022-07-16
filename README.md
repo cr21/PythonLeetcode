@@ -52,6 +52,7 @@ Python Leetcode questions
 | 46 | Validate_BST |  Tree, BST |  [98 Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/) | [validate_bst.py](/Tree/LC98_Validate_BST.py) |
 | 47 | Rotate Image |  Array, Matrix,  |  [48 Rotate Image](https://leetcode.com/problems/rotate-image/) | [rotateImage.py](/Array/LC48_Rotate_image.py) |
 | 48 | Kth Closest Element to Origin |  Heap |  [973 K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [kth_closest_point_to_origin.py](/Heap/KthClosestElement_to_origin.py) |
+| 49 | Trapping Rain Water|  Array, Two Pointer, Prefix sum, suffix sum, right left sum |  [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [traipping_rain_water.py](/Two_Pointer/LC42_Trapping_Rain_water.py) |
 
 
 

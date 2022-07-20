@@ -54,6 +54,11 @@ Python Leetcode questions
 | 48 | Kth Closest Element to Origin |  Heap |  [973 K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [kth_closest_point_to_origin.py](/Heap/KthClosestElement_to_origin.py) |
 | 49 | Trapping Rain Water|  Array, Two Pointer, Prefix sum, suffix sum, right left sum |  [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [traipping_rain_water.py](/Two_Pointer/LC42_Trapping_Rain_water.py) |
 | 50 | Word Search|  Backtracking, DFS, GRAPH |  [79. Word Search](https://leetcode.com/problems/word-search/) | [word_search.py](/Backtrack/LC79_WordSearch-I.py) |
+| 51 | Word Search 2|  Backtracking, DFS, GRAPH ,TRIE|  [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [word_search_2.py](/Trie/LC212_WordSearch-II.py) |
+| 52 | Trie Implementation| TRIE|  [208.  Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [trie.py](/Trie/LC208_Implement_Trie.py) |
+
+
+
 
 
 

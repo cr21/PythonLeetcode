@@ -58,6 +58,7 @@ Python Leetcode questions
 | 52 | Trie Implementation| TRIE|  [208.  Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [trie.py](/Trie/LC208_Implement_Trie.py) |
 | 53 | LCS of Two stirngs | STRING, Dynamic Programming|  [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [lcs.py](/DP/longest_common_subsequence.py) |
 | 54 | Longest consecutive sequences | Array, Hashset|  [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive_seq.py](/Array_Hashing/Longest_consecutive_sequences.py) |
+| 55 | Daily Temperature |Stack|  [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [daily_temparature.py](/Stack/LC739_Daily_Temprature.py) |
 
 
 

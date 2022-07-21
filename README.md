@@ -57,6 +57,8 @@ Python Leetcode questions
 | 51 | Word Search 2|  Backtracking, DFS, GRAPH ,TRIE|  [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [word_search_2.py](/Trie/LC212_WordSearch-II.py) |
 | 52 | Trie Implementation| TRIE|  [208.  Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [trie.py](/Trie/LC208_Implement_Trie.py) |
 | 53 | LCS of Two stirngs | STRING, Dynamic Programming|  [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [lcs.py](/DP/longest_common_subsequence.py) |
+| 54 | Longest consecutive sequences | Array, Hashset|  [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive_seq.py](/Array_Hashing/Longest_consecutive_sequences.py) |
+
 
 
 

@@ -63,6 +63,7 @@ Python Leetcode questions
 | 57 | reverse linkedlist in k groups |LinkedList|  [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [reverse_linked_list_kgroups.py](/LinkedList/reverse_in_k_group.py) |
 | 58 | reverse linkedlist  |LinkedList|  [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [reverse_linked_list.py](/LinkedList/LC206_reverse_linkedList.py) |
 | 59 | reverse linkedlist II  |LinkedList |  [92. Reverse Linked List II ](https://leetcode.com/problems/reverse-linked-list-ii/) | [reverse_linked_list_II.py](/LinkedList/Reverse_linked_list2.py) |
+| 60 | Merge Two Sorted Lists |LinkedList |  [21. Merge Two Sorted Lists ](https://leetcode.com/problems/merge-two-sorted-lists/) | [merge_sorted_linkedlist.py](/LinkedList/LC21_Merge_two_sorted_linkedList.py) |
 
 
 

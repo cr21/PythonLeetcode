@@ -60,6 +60,9 @@ Python Leetcode questions
 | 54 | Longest consecutive sequences | Array, Hashset|  [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive_seq.py](/Array_Hashing/Longest_consecutive_sequences.py) |
 | 55 | Daily Temperature |Stack|  [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [daily_temparature.py](/Stack/LC739_Daily_Temprature.py) |
 | 56 | return forest |TREE, DFS|  [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [delete_and_Return_forest.py](/Tree/LC1110_delete_and_get_forest.py) |
+| 57 | reverse linkedlist in k groups |LinkedList|  [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [reverse_linked_list_kgroups.py](/LinkedList/reverse_in_k_group.py) |
+
+
 
 
 

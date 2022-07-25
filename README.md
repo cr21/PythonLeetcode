@@ -64,6 +64,9 @@ Python Leetcode questions
 | 58 | reverse linkedlist  |LinkedList|  [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [reverse_linked_list.py](/LinkedList/LC206_reverse_linkedList.py) |
 | 59 | reverse linkedlist II  |LinkedList |  [92. Reverse Linked List II ](https://leetcode.com/problems/reverse-linked-list-ii/) | [reverse_linked_list_II.py](/LinkedList/Reverse_linked_list2.py) |
 | 60 | Merge Two Sorted Lists |LinkedList |  [21. Merge Two Sorted Lists ](https://leetcode.com/problems/merge-two-sorted-lists/) | [merge_sorted_linkedlist.py](/LinkedList/LC21_Merge_two_sorted_linkedList.py) |
+| 61 | Climbing Stairs |Dynamic Programming |  [70. Climbing Stairs ](https://leetcode.com/problems/climbing-stairs/) | [staircase.py](/DP/Staicase.py) |
+| 62 | Min Cost Climbing Stairs | Dynamic Programming| [746. Min Cost Climbing Stairs ](https://leetcode.com/problems/min-cost-climbing-stairs/) | [min_cost_climibing_stairs.py](/DP/LC746_min_cost_to_climb_stairs.py) |
+
 
 
 

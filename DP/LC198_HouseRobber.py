@@ -27,40 +27,51 @@ Constraints:
 
 
 """
-
 class Solution:
     def rob(self, nums: List[int]) -> int:
         
-        if not nums:
-            return 0
+        rob1, rob2=0,0
+        
+        #[rob1,rob2,1,2,3,1]
+        for num in nums:
+            choose = rob1+num
+            notchoose = rob2
+            temp = max(choose, notchoose)
+            rob1 = rob2
+            rob2=temp
+            
+        return rob2
+        
+#         if not nums:
+#             return 0
         
        
         
-        # recursive solution with memoiaztion
-        def max_gain(index, memo):
+#         # recursive solution
+#         def max_gain(index, memo):
             
-            if index < 0:
-                return 0
+#             if index < 0:
+#                 return 0
             
-            if index in memo:
-                return memo[index]
+#             if index in memo:
+#                 return memo[index]
             
-            if index == 0 :
-                memo[0] = nums[0]
-                return nums[0]
+#             if index == 0 :
+#                 memo[0] = nums[0]
+#                 return nums[0]
             
-            if index == 1:
-                memo[1] = max(nums[0], nums[1])
-                return max(nums[0], nums[1])
+#             if index == 1:
+#                 memo[1] = max(nums[0], nums[1])
+#                 return max(nums[0], nums[1])
             
-            # if you choose at current index, you could not have choosen to rob on previous index
-            choose =  nums[index] + max_gain(index-2,memo)
-            # if you decided not to rob current house
-            not_choose = max_gain(index-1, memo)
-            memo[index]= max(choose, not_choose)
-            return max(choose, not_choose)
+#             # if you choose at current index, you could not have choosen to rob on previous index
+#             choose =  nums[index] + max_gain(index-2,memo)
+#             # if you decided not to rob current house
+#             not_choose = max_gain(index-1, memo)
+#             memo[index]= max(choose, not_choose)
+#             return max(choose, not_choose)
         
         
-        return max_gain(len(nums)-1, {})
+#         return max_gain(len(nums)-1, {})
             
         

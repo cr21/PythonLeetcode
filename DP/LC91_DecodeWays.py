@@ -98,5 +98,38 @@ class Solution:
         
         return dfs(0, memo)
         
+      # APPROACH 3
+      memo={}
+      def memoization(index, c):
+          if index in memo:
+              return memo[index]
+
+          # If we reach the end of the ciphertext, we return 1.
+          if index == len(c):
+              return 1
+
+          # If the ciphertext starts with a zero, it can't be deciphered
+          if c[index] == '0':
+              return 0
+
+          # reach to the last index
+          if index == len(c)-1:
+              return 1
+
+
+          # make a recursive call to the function with index + 1 for next substring
+          result = memoization(index + 1, c)
+
+          # make a recursive call to the function with index + 2 after checking for
+          # valid two-digit decipher
+          if int(c[index : index + 2]) <= 26:
+                  result += memoization(index + 2, c)
+
+          # save the result to be used later, in case of overlapping subproblems.
+          memo[index]=result
+          return result
+      print("APPROACH3")
+      return memoization(0,s)
             
+        
         

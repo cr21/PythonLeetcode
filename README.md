@@ -72,6 +72,10 @@ Python Leetcode questions
 | 66 | House Robber 2| Dynamic Programming 1D | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | [house_robber_II_1d.py](/DP/LC213_House_Robber.py) |
 | 67 | Longest Pallindromic Substring| Dynamic Programming 1D | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_pallindromic_substr.py](/DP/LC5_Longest_pallindromic_substirng.py) |
 | 68 | Decode Ways| Dynamic Programming 1D | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](/DP/LC91_DecodeWays.py) |
+| 69 | Coin Change| Dynamic Programming 1D | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](/DP/LC322_coin_change.py) |
+
+
+
 
 
 

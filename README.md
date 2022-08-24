@@ -73,6 +73,8 @@ Python Leetcode questions
 | 67 | Longest Pallindromic Substring| Dynamic Programming 1D | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_pallindromic_substr.py](/DP/LC5_Longest_pallindromic_substirng.py) |
 | 68 | Decode Ways| Dynamic Programming 1D | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](/DP/LC91_DecodeWays.py) |
 | 69 | Coin Change| Dynamic Programming 1D | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](/DP/LC322_coin_change.py) |
+| 70 | Top K Frequent Elements| Array | [347. Top K frequent Element](https://leetcode.com/problems/top-k-frequent-elements/) | [topk_frequent.py](/Array/LC304_Range_sum_query_2d_immutable.py) |
+
 
 
 

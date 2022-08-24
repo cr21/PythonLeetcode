@@ -74,6 +74,7 @@ Python Leetcode questions
 | 68 | Decode Ways| Dynamic Programming 1D | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](/DP/LC91_DecodeWays.py) |
 | 69 | Coin Change| Dynamic Programming 1D | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](/DP/LC322_coin_change.py) |
 | 70 | Top K Frequent Elements| Array | [347. Top K frequent Element](https://leetcode.com/problems/top-k-frequent-elements/) | [topk_frequent.py](/Array/LC304_Range_sum_query_2d_immutable.py) |
+| 71 | Longest Repeating Character Replacement| Array Hashing | [424 Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repearing_Char_with_replancement.py](/Array_Hashing/LC424_Longest_repeating_char_with_repalcement.py) |
 
 
 

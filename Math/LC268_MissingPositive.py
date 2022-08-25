@@ -46,21 +46,53 @@ class Solution:
         # Approach 2 : putting element into its correct position
     
         
-        index = 0
-        while index < len(nums):
-            # check if every element is on it's right position
-            if (nums[index]< len(nums)) and (nums[index] != nums[nums[index]]):
-                nums[nums[index]], nums[index]  = nums[index], nums[nums[index]] 
-            else:
-                # check for the next number
-                index+=1
+#         index = 0
+#         while index < len(nums):
+#             # check if every element is on it's right position
+#             if (nums[index]< len(nums)) and (nums[index] != nums[nums[index]]):
+#                 nums[nums[index]], nums[index]  = nums[index], nums[nums[index]] 
+#             else:
+#                 # check for the next number
+#                 index+=1
         
         
-        for index in range(len(nums)):
-            # if current number is not in right position return it
-            if nums[index] != index:
-                return index
+#         for index in range(len(nums)):
+#             # if current number is not in right position return it
+#             if nums[index] != index:
+#                 return index
             
-        return len(nums)
+#         return len(nums)
+
+
+#         # APPROACH 3 : BIT MANIPULATION XOR
+        
+#         mask = nums[0]
+        
+#         # XOR all array element
+#         for index in range(1, len(nums)):
+#             mask ^= nums[index]
+        
+#         # XOR with all range [0,n]
+        
+        
+#         for index in range(len(nums)+1):
+#             mask ^= index
+        
+#         # nums = [1,0,3] and range = [0,1,2,3]
+#         # 1^0^3^0^1^2^3 = 2
+#         return mask
+    
+#         # APPROACH 4 sum
+        
+#         res = len(nums)
+        
+#         for index in range(len(nums)):
+#             res += (index-nums[index])
+            
+#         return res
+        
+        # Approach 5 SUM
+        return sum([i for i in range(len(nums)+1)]) - sum(nums)
+    
             
             

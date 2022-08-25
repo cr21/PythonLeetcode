@@ -33,16 +33,34 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        maxSum = float("-inf")
+#         maxSum = float("-inf")
+#         curSum = 0
+        
+#         for num in nums:
+            
+#             # if num > (curSum+num) then (all the previous num can not be part of largest subarray)
+#             # we will form larger sum subarray from current element
+#             curSum = max(curSum+num, num)
+#             maxSum = max(maxSum, curSum)
+#         return maxSum
+
+
+        # Approach 2
+    
+        maxSum = nums[0]
+        
         curSum = 0
         
         for num in nums:
-            
-            # if num > (curSum+num) then (all the previous num can not be part of largest subarray)
-            # we will form larger sum subarray from current element
-            curSum = max(curSum+num, num)
+            if curSum < 0:
+                curSum = 0
+            curSum+=num
             maxSum = max(maxSum, curSum)
         return maxSum
+                
+                
+        
+        
                 
                 
         

@@ -34,7 +34,6 @@ All elements of candidates are distinct.
 
 
 """
-
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         
@@ -43,38 +42,60 @@ class Solution:
         
         
         
-        def backtrack(candidates,index, target, cursum, curSet):
+#         def backtrack(candidates,index, target, cursum, curSet):
             
             
-            # base case
-            if index >= len(candidates):
-                return 
+#             # base case
+#             if index >= len(candidates):
+#                 return 
             
-            if cursum == target:
+#             if cursum == target:
                 
-                res.append([ i for i in curSet])
-                return 
+#                 res.append([ i for i in curSet])
+#                 return 
             
-            if cursum > target:
+#             if cursum > target:
+#                 return
+            
+#             for i in range(index,len(candidates)):
+                
+                
+#                 cursum += candidates[i]
+#                 curSet.append(candidates[i])
+#                 backtrack(candidates, i, target, cursum,curSet)
+
+#                 # backtrack
+#                 cursum -=candidates[i]
+#                 curSet.pop()
+            
+#             return 
+        
+#         backtrack(candidates,0, target, 0, [])
+        res=[]
+        def dfs(i, curr, total):
+            if total == target:
+                res.append(curr.copy())
                 return
             
-            for i in range(index,len(candidates)):
-                
-                
-                cursum += candidates[i]
-                curSet.append(candidates[i])
-                backtrack(candidates, i, target, cursum,curSet)
-
-                # backtrack
-                cursum -=candidates[i]
-                curSet.pop()
+            if i >= len(candidates) or total > target:
+                return
             
-            return 
-        
-        backtrack(candidates,0, target, 0, [])
+            # choose current index
+            curr.append(candidates[i])
+            dfs(i, curr, total+candidates[i])
+            # don't choose 
+            curr.pop()
+            dfs(i+1, curr, total)
+            
+        dfs(0,[],0)
         return res
                     
                 
+                
+                
+            
+            
+            
                 
                 
             

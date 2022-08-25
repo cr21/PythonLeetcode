@@ -79,6 +79,8 @@ Python Leetcode questions
 | 73 | Maximum sum subarray| Array, Greedy| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [maximum_subarray_sum.py](/Greedy/Maximum_subarray.py) |
 | 74 | Missing Number| MATH, SET| [268. Missing Number](https://leetcode.com/problems/missing-number/) | [missing_positive.py](/Math/LC268_MissingPositive.py) |
 | 75 | Counting Bits| MATH, BIT| [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [counting_bits.py](/BitManipulation/Counting_bits.py) |
+| 76 | Combination sums| DP| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [combinations_sum.py](/DP/Lc39_Combination_sum.py) |
+
 
 
 

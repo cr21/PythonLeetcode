@@ -76,6 +76,8 @@ Python Leetcode questions
 | 70 | Top K Frequent Elements| Array | [347. Top K frequent Element](https://leetcode.com/problems/top-k-frequent-elements/) | [topk_frequent.py](/Array/LC304_Range_sum_query_2d_immutable.py) |
 | 71 | Longest Repeating Character Replacement| Array Hashing | [424 Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repearing_Char_with_replancement.py](/Array_Hashing/LC424_Longest_repeating_char_with_repalcement.py) |
 | 72 | Kth Smallest Element in a BST| Tree, BST| [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [kth_smallest_bst.py](/Tree/LC230_Kth_smallest_element_BST.py) |
+| 73 | Maximum sum subarray| Array, Greedy| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [maximum_subarray_sum.py](/Greedy/Maximum_subarray.py) |
+
 
 
 

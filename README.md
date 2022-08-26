@@ -84,6 +84,8 @@ Python Leetcode questions
 | 78 | Valid Pallindrome| String | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_pallindrome.py](/String/LC_125ValidPallindrome.py) |
 | 79 | Valid Analgram| String | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](/String/LC_242ValidAnagram.py) |
 
+| 80 |  Contains Duplicate| HashMap | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [contains_duplicate.py](/HashMap/LC217_contains_duplicate.py) |
+
 
 
 

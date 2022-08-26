@@ -82,6 +82,8 @@ Python Leetcode questions
 | 76 | Combination sums| DP| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [combinations_sum.py](/DP/Lc39_Combination_sum.py) |
 | 77 | Find Median from Data Stream| Heap| [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_meadian_from_stream.py](/Heap/LC295_FindMeadianStream.py) |
 | 78 | Valid Pallindrome| String | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_pallindrome.py](/String/LC_125ValidPallindrome.py) |
+| 79 | Valid Analgram| String | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [valid_anagram.py](/String/LC_242ValidAnagram.py) |
+
 
 
 

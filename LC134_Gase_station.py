@@ -76,3 +76,64 @@ if index == -1:
     print("We cannot make the round trip once, no matter where you start.")
 else:
     print("Starting gas station's index is: " + str(index) + ".")
+  
+  
+  
+ class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        
+        if not gas or not cost:
+            return -1
+        
+        if sum(gas)<sum(cost):
+            return -1
+        
+        
+#         # 33/37 test case passed
+#         # TLE
+#         for index in range(len(gas)):
+#             diff = 0
+#               # to complete one round iterate from index to index+len(gas)
+#             for i in range(index, index+len(gas)):
+#                 diff += gas[i% len(gas)] -cost[i%len(gas)]
+                
+#                 if diff<0:
+#                     break
+#             if diff >=0:
+#                 return index
+            
+#         return -1
+
+# APPROACH 2
+#         n = len(gas)
+#         starting_Station = 0
+#         total_tank = 0
+#         current_tank = 0
+        
+#         for i in range(n):
+#             total_tank += gas[i] - cost[i]
+#             current_tank += gas[i] - cost[i]
+            
+#             # this can not be answered
+            
+#             if current_tank < 0 :
+#                 current_tank = 0
+#                 starting_Station = i+1
+                
+#         return starting_Station if total_tank >=0 else -1
+    
+        # APPROACH 3
+        
+        total = 0
+        start = 0
+        
+        for index in range(len(gas)):
+            total += (gas[index]-cost[index])
+            
+            if total < 0 :
+                total = 0
+                start = index+1
+                
+        return start
+            
+        

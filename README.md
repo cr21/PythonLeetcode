@@ -88,6 +88,8 @@ Python Leetcode questions
 | 82 | Binary Search | Binary Search | [704. Binary Search](https://leetcode.com/problems/binary-search/) | [binary_search.py](/BinarySearch/LC704_binary_search.py) |
 | 83 | Coin Change 2 | Dynamic Programmin, Knapsack | [518. Coin Change 2  ](https://leetcode.com/problems/coin-change-2/) | [coin_change2.py](/DP/LC518_CoinChange2.py) |
 | 84 | Rotting Oranges | Graph, BFS | [994.  Rotting Oranges ](https://leetcode.com/problems/rotting-oranges/) | [rotting_orange.py](/Graph/LC994_Rotting_Orange.py) |
+| 85 | Happy Number | Math, Hashset | [202. Happy Number ](https://leetcode.com/problems/happy-number/) | [happy_number.py](/Math/LC202_Happy_number.py) |
+
 
 
 

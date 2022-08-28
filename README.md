@@ -92,7 +92,7 @@ Python Leetcode questions
 | 86 | Target Sum| Math, DP | [494. Target Sum ](https://leetcode.com/problems/target-sum/) | [target_sum.py](/DP/LC494_TargetSum.py) |
 | 87 | Group Anagrams| Array Hashing | [49. Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | [group_anagram.py](/Array_Hashing/LC49_Group_Anagram.py) |
 | 88 | Design Add and Search Words Data Structure| Trie, HashMap | [211. Design Add and Search Words Data Structure ](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [add_search.py](/Trie/LC211_Design_add_and_wordsearch.py) |
-
+| 89 | Minimum Window Substring| Sliding Window, Hashing, String | [76.Minimum Window Substring ](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](/LC76_minimum_window_substring.py) |
 
 
 

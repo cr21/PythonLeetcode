@@ -95,3 +95,95 @@ class Solution {
         
     }
 }
+
+
+### PYTHONN
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        
+        if not lists:
+            return None
+        
+        if len(lists)==1:
+            return lists[0]
+        
+        
+        
+        res = None
+        index = 0
+        
+        
+        
+        def merge_2_list(list1, list2):
+            
+            
+            if not list1:
+                return list2
+            
+            if not list2:
+                return list1
+
+
+            cur = ListNode(-1)
+            dummy = ListNode(-1, cur)
+
+
+            while list1 and list2:
+
+                if list1.val <= list2.val:
+                    cur.next = list1
+                    list1=list1.next
+                    cur = cur.next
+                elif list2.val <= list1.val:
+                    cur.next = list2
+                    list2=list2.next
+                    cur = cur.next
+
+
+            # if one of the list goes out of bound
+            # iterate over next list
+
+            while list1:
+                cur.next = list1
+                list1=list1.next
+                cur = cur.next
+
+            while list2:
+                cur.next = list2
+                list2=list2.next
+                cur = cur.next
+
+            return dummy.next.next
+        
+        
+        
+       
+        
+        while index < len(lists):
+            
+            list1 = lists[index]
+            index = index+1
+            if index <  len(lists):
+                list2=lists[index]
+                # we found two list
+                # merge it first
+                merged= merge_2_list(list1, list2)
+                # merged response list with merge output from above
+                res = merge_2_list(res,merged )
+                index+=1
+            else:
+                # no matching pair found so merge with resultant merged 
+                res = merge_2_list(res, list1)
+            
+            
+        return res
+        
+        
+        

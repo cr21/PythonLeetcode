@@ -96,6 +96,7 @@ Python Leetcode questions
 | 90 | Merge k Sorted Lists| Linked List | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [merge_k_sorted_list.py](/LinkedList/LC23_merge_k_sorted_list.java) |
 | 91 | Reorder List| Linked List | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [reorder_linkedList.py](/LinkedList/LC143_Reorder_LinkedList.py) |
 | 92 |Generate Parentheses| Backtracking, Stack | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generte_parenthesis.py](/Backtrack/LC22_Generate_parenthesis.py) |
+| 93 |Search in Rotated Sorted Array| Backtracking, Stack | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_rotated_sorted_array.py](/BinarySearch/LC33_Search_rotated_Sorted_Array.py) |
 
 
 

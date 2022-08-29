@@ -95,6 +95,7 @@ Python Leetcode questions
 | 89 | Minimum Window Substring| Sliding Window, Hashing, String | [76.Minimum Window Substring ](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](/LC76_minimum_window_substring.py) |
 | 90 | Merge k Sorted Lists| Linked List | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [merge_k_sorted_list.py](/LinkedList/LC23_merge_k_sorted_list.java) |
 | 91 | Reorder List| Linked List | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [reorder_linkedList.py](/LinkedList/LC143_Reorder_LinkedList.py) |
+| 92 |Generate Parentheses| Backtracking, Stack | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generte_parenthesis.py](/Backtrack/LC22_Generate_parenthesis.py) |
 
 
 

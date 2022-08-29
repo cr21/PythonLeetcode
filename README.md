@@ -98,6 +98,8 @@ Python Leetcode questions
 | 92 |Generate Parentheses| Backtracking, Stack | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generte_parenthesis.py](/Backtrack/LC22_Generate_parenthesis.py) |
 | 93 |Search in Rotated Sorted Array| Backtracking, Stack | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_rotated_sorted_array.py](/BinarySearch/LC33_Search_rotated_Sorted_Array.py) |
 | 94 |Koko Eating Bananas| Binary Search | [875. Koko Eating Banana](https://leetcode.com/problems/koko-eating-bananas/) | [koko_binary_search.py](/BinarySearch/LC875_KokoEating_bananas.py) |
+| 95 |Car Fleet|stack | [853. Car Fleet](https://leetcode.com/problems/car-fleet/) | [car_fleet.py](/Stack/LC853_carfleet.py) |
+
 
 
 

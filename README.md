@@ -100,6 +100,7 @@ Python Leetcode questions
 | 94 |Koko Eating Bananas| Binary Search | [875. Koko Eating Banana](https://leetcode.com/problems/koko-eating-bananas/) | [koko_binary_search.py](/BinarySearch/LC875_KokoEating_bananas.py) |
 | 95 |Car Fleet|stack | [853. Car Fleet](https://leetcode.com/problems/car-fleet/) | [car_fleet.py](/Stack/LC853_carfleet.py) |
 | 96 |Valid Parenthesis|stack | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parenthesis.py](/Stack/LC20_ValidParenthesis.py) |
+| 97 |Invert Binary Tree|Tree | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [invert_binary_tree.py](/Tree/LC226_Invert_tree.py) |
 
 
 

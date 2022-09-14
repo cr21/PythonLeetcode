@@ -104,6 +104,7 @@ Python Leetcode questions
 | 98 |Number of Island| Graph | [200. Number of Island](https://leetcode.com/problems/number-of-islands/) | [number_island.py](/Graph/LC200_Number_of_island.py) |
 | 99 |Unique Path| Graph | [62. Unique Path](https://leetcode.com/problems/unique-paths/) | [unique_path.py](/Graph/LC62_unique_path.py) |
 |100 |Word Break| DP | [139. Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](/DP/LC139_wordBreak.py) |
+|101 |Insert Interval|Intervals | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [insert_interval.py](/Intervals/LC57_insert_interval.py) |
 
 
 

@@ -107,6 +107,7 @@ Python Leetcode questions
 |101 |Insert Interval|Intervals | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [insert_interval.py](/Intervals/LC57_insert_interval.py) |
 |102 |Merge Interval|Intervals | [56. Merge Interval](https://leetcode.com/problems/merge-intervals/) | [merge_interval.py](/Intervals/LC56_MergeInterval.py) |
 |103 | Remove Nth Node From End of List |Intervals | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [remove_node_from_end_ofList.py](/LinkedList/LC19_Remove_Node_EndOfLinkedList.py) |
+|104 | Construct Binary Tree from Preorder and Inorder Traversal |Tree | [105.  Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [construct_binary_tree_inorder_preorder.py](/Tree/LC105_Construct_Binary_treeFromPreorder_Inorder.py) |
 
 
 

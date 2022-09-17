@@ -117,6 +117,7 @@ Python Leetcode questions
 |111 |  Binary Tree Maximum Path Sum | Binary Tree| [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/ ) |[binary_tree_maximum_path_sum.py](/Tree/LC124_BinaryTreeMaximumPathSum.py) |
 |112 |  LIS of Array | DP, Binary Search| [300. Longest Increasing Subsequences](https://leetcode.com/problems/longest-increasing-subsequence/ ) |[lis.py](/DP/LC300_LongestIncreasingSubsequence.py) |
 |113 |  Same Tree | Tree| [100. Same Tree](https://leetcode.com/problems/same-tree/ ) |[sametree.py](/Tree/LC100SameTree.py) |
+|114 |  Maximum Depth of the Tree | Tree| [104. Max Depth](https://leetcode.com/problems/maximum-depth-of-binary-tree/ ) |[max_depth.py](/Tree/LC104MaxDepthTree.py) |
 
 
 

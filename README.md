@@ -121,6 +121,7 @@ Python Leetcode questions
 |115 | 3 Sum | Array Hashing, Two Pointer| [15. 3 Sum](https://leetcode.com/problems/3sum/ ) |[3sum.py](/Array_Hashing/LC15_3Sum.py) |
 |116 | Clone Graph | Graph| [133. Clone Graph](https://leetcode.com/problems/clone-graph/ ) |[clone_graph.py](/Graph/LC133CloneGraph.py) |
 |117 | Encode Decode String | String| [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |[encode_decode_string.py](/String/LC271_EncodeDecodeString.py) |
+|118| Subtree of Another Tree | Tree| [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |[subtree_of_tree.py](/Tree/LC572_subtreeofTree.py) |
 
 
 

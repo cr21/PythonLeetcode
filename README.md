@@ -124,6 +124,7 @@ Python Leetcode questions
 |118| Subtree of Another Tree | Tree| [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |[subtree_of_tree.py](/Tree/LC572_subtreeofTree.py) |
 |119| Meeting Rooms | Tree| [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[meetingrooms1.py](/Intervals/LC252_MeetingRooms.py) |
 |120| Graph Valid Tree | Tree| [261  Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |[graph_valid_tree.py](/Graph/LC261_GraphValidTree.py) |
+|121| Course Schedule | Graph| [207. Course Schedule](https://leetcode.com/problems/course-schedule/) |[course_scheduler.py](/Graph/LC207_CourseScheduler.py) |
 
 
 

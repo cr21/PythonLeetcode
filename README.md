@@ -123,6 +123,9 @@ Python Leetcode questions
 |117 | Encode Decode String | String| [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |[encode_decode_string.py](/String/LC271_EncodeDecodeString.py) |
 |118| Subtree of Another Tree | Tree| [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |[subtree_of_tree.py](/Tree/LC572_subtreeofTree.py) |
 |119| Meeting Rooms | Tree| [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[meetingrooms1.py](/Intervals/LC252_MeetingRooms.py) |
+|120| Graph Valid Tree | Tree| [261  Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |[graph_valid_tree.py](/Graph/LC261_GraphValidTree.py) |
+
+
 
 
 

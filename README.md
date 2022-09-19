@@ -131,6 +131,7 @@ Python Leetcode questions
 |125|  Non-overlapping Intervals | Intervals| [435. Non-overlapping Intervals  ](https://leetcode.com/problems/non-overlapping-intervals/) |[non_overlapping_intervals.py](/Intervals/LC435_NonOverlapping_intervals.py) |
 |126|  Number of Connected Components in an Undirected Graph | Graph| [323. Number of Connected Components in an Undirected Graph  ](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) |[num_of_connected_components.py](/Graph/LC323_NumberOfConnectedComponenets.py) |
 |127|  Number of 1 Bits | Bit Manipulation| [191 . Number of 1 Bits ](https://leetcode.com/problems/number-of-1-bits/) |[countBits_1.py](/BitManipulation/LC191_NumberOf1Bits.py) |
+|128|  Set Matrix Zero | Math| [73. Set Matrix Zeroes ](https://leetcode.com/problems/set-matrix-zeroes/) |[set_matrix_zero.py](/Math/LC73_setMatrixZero.py) |
 
 
 

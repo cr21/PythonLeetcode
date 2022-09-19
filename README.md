@@ -126,6 +126,8 @@ Python Leetcode questions
 |120| Graph Valid Tree | Tree| [261  Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |[graph_valid_tree.py](/Graph/LC261_GraphValidTree.py) |
 |121| Course Schedule | Graph| [207. Course Schedule](https://leetcode.com/problems/course-schedule/) |[course_scheduler.py](/Graph/LC207_CourseScheduler.py) |
 |122| Best Time To Buy Stock| Sliding Window| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[best_time_tobuy_stock.py](/Sliding_window/LC121_BestTimeToBuyStock.py) |
+|123| 55 Jump Game| Greedy, DP| [55 Jump Game](https://leetcode.com/problems/jump-game/) |[jump_Game.py](/Greedy/LC55_JumpGame.py) |
+
 
 
 

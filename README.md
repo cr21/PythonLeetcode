@@ -128,6 +128,7 @@ Python Leetcode questions
 |122| Best Time To Buy Stock| Sliding Window| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[best_time_tobuy_stock.py](/Sliding_window/LC121_BestTimeToBuyStock.py) |
 |123| 55 Jump Game| Greedy, DP| [55 Jump Game](https://leetcode.com/problems/jump-game/) |[jump_Game.py](/Greedy/LC55_JumpGame.py) |
 |124| Meeting Rooms II | Intervals| [253 Meeting Rooms  ](https://leetcode.com/problems//meeting-rooms-ii/) |[meetingrooms_2.py](/Intervals/Lc253_MeetingRoom_II.py) |
+|125|  Non-overlapping Intervals | Intervals| [435. Non-overlapping Intervals  ](https://leetcode.com/problems/non-overlapping-intervals/) |[non_overlapping_intervals.py](/Intervals/LC435_NonOverlapping_intervals.py) |
 
 
 

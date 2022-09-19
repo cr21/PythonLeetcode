@@ -122,11 +122,12 @@ Python Leetcode questions
 |116 | Clone Graph | Graph| [133. Clone Graph](https://leetcode.com/problems/clone-graph/ ) |[clone_graph.py](/Graph/LC133CloneGraph.py) |
 |117 | Encode Decode String | String| [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) |[encode_decode_string.py](/String/LC271_EncodeDecodeString.py) |
 |118| Subtree of Another Tree | Tree| [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) |[subtree_of_tree.py](/Tree/LC572_subtreeofTree.py) |
-|119| Meeting Rooms | Tree| [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[meetingrooms1.py](/Intervals/LC252_MeetingRooms.py) |
+|119| Meeting Rooms | Intervals| [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[meetingrooms1.py](/Intervals/LC252_MeetingRooms.py) |
 |120| Graph Valid Tree | Tree| [261  Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) |[graph_valid_tree.py](/Graph/LC261_GraphValidTree.py) |
 |121| Course Schedule | Graph| [207. Course Schedule](https://leetcode.com/problems/course-schedule/) |[course_scheduler.py](/Graph/LC207_CourseScheduler.py) |
 |122| Best Time To Buy Stock| Sliding Window| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |[best_time_tobuy_stock.py](/Sliding_window/LC121_BestTimeToBuyStock.py) |
 |123| 55 Jump Game| Greedy, DP| [55 Jump Game](https://leetcode.com/problems/jump-game/) |[jump_Game.py](/Greedy/LC55_JumpGame.py) |
+|124| Meeting Rooms II | Intervals| [253 Meeting Rooms  ](https://leetcode.com/problems//meeting-rooms-ii/) |[meetingrooms_2.py](/Intervals/Lc253_MeetingRoom_II.py) |
 
 
 

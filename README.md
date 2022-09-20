@@ -134,6 +134,7 @@ Python Leetcode questions
 |128|  Set Matrix Zero | Math| [73. Set Matrix Zeroes ](https://leetcode.com/problems/set-matrix-zeroes/) |[set_matrix_zero.py](/Math/LC73_setMatrixZero.py) |
 |129|  Reverse Bit | Bit Manipulation| [190. Reverse Bits ](https://leetcode.com/problems/reverse-bits/) |[reverse_bits.py](/BitManipulation/LC190_Bit_reverse.py) |
 |130|  Sum Of Two Integer | Bit Manipulation| [371 Sum Of Two Integer](https://leetcode.com/problems/sum-of-two-integers/) |[sum_of_two_integer.py](/BitManipulation/LC371_Sum_of_two_interger.py) |
+|131|  Alien Dictionary | Graph, Topological Sorting| [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) |[aliendictionary.py](/Graph/LC269_AlienDictionary.py) |
 
 
 

@@ -132,6 +132,7 @@ Python Leetcode questions
 |126|  Number of Connected Components in an Undirected Graph | Graph| [323. Number of Connected Components in an Undirected Graph  ](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) |[num_of_connected_components.py](/Graph/LC323_NumberOfConnectedComponenets.py) |
 |127|  Number of 1 Bits | Bit Manipulation| [191 . Number of 1 Bits ](https://leetcode.com/problems/number-of-1-bits/) |[countBits_1.py](/BitManipulation/LC191_NumberOf1Bits.py) |
 |128|  Set Matrix Zero | Math| [73. Set Matrix Zeroes ](https://leetcode.com/problems/set-matrix-zeroes/) |[set_matrix_zero.py](/Math/LC73_setMatrixZero.py) |
+|129|  Reverse Bit | Bit Manipulation| [190. Reverse Bits ](https://leetcode.com/problems/reverse-bits/) |[reverse_bits.py](/BitManipulation/LC190_Bit_reverse.py) |
 
 
 
